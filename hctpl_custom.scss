@@ -1,0 +1,256 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7psDJB9cme_xc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold Italic'), local('SourceSansPro-BoldItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdi18S0xR41YDw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lujVj9_mf.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRdu3cOWxy40.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Serif Pro Bold'), local('SourceSerifPro-Bold'), url(https://fonts.gstatic.com/s/sourceserifpro/v5/neIXzD-0qpwxpaWvjeD0X88SAOeasc8btSKqxKcsdrOPbQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* -- Variables ----------------------------------------------- */
+
+$font-sans: 'Source Sans Pro', verdana, sans-serif;
+$font-serif: 'Source Serif Pro', Georgia, serif;
+$blue-pale: #cdf;
+$blue-light: #0033aa;
+$blue-med: #00268e;
+$blue-dark:  #001a70;
+$green-med: #a3e35e;
+$gray-pale: #f4f4f7;
+
+/* -- New CSS ------------------------------------------------- */
+
+body, html, select[multiple="multiple"] option {
+    font-family: $font-sans;
+    font-weight: 400;
+}
+
+a:hover {
+    color: inherit;
+    font-style: normal;
+}
+
+.nsm-short-item:not(.nsm-e135) {
+    color: black;
+}
+
+a.nsm-brief-action-link span.nsm-short-item, .nsm-short-item > a {
+    color: $blue-light;
+    font-weight: 700;
+}
+
+.nsm-hit-text {
+    background-color: rgba(167,223,94,0.3);
+    padding: 2px 3px;
+    border-radius: 3px;
+    font-style: normal;
+}
+
+.c-title-detail-actions__btn:link, .c-title-detail-actions__btn:visited, .has-sidebar .secondary-content .c-title-detail-actions__btn:link, .has-sidebar .secondary-content .c-title-detail-actions__btn:visited {
+    color: $blue-med;
+    font-weight: 700;
+    background-color: $blue-pale;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    font-family: $font-serif;
+}
+
+.c-title-detail-actions__btn:link:hover, .c-title-detail-actions__btn:visited:hover, .c-title-detail-actions__btn:link:hover, .c-title-detail-actions__btn:visited:hover, .has-sidebar .secondary-content .c-title-detail-actions__btn:link:hover, .has-sidebar .secondary-content .c-title-detail-actions__btn:visited:hover {
+    color: white;
+    background-color: $blue-light;
+}
+
+.c-add-to-my-list:link, .c-add-to-my-list:visited {
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: $font-serif;
+    color: $blue-light;
+    padding: 0;
+    margin-left: 40px;
+}
+
+.c-add-to-my-list::before {
+    font-family: 'Glyphicons Halflings';
+    font-size: 14px;
+    margin-right: 5px;
+    content:"\e081";
+    opacity: 0.5;
+}
+
+.site-footer__secondary-content, .c-results-utility--full, .c-results-utility--partial, .c-results-utility-sort, .nav-panel--main-menu .nav-panel__top-nav, .nav-panel, .site-header {
+    background-color: $blue-dark;
+}
+
+.site-footer__main {
+    background-color: $blue-med;
+}
+
+.nav--footer .expandable-block-nav .nav__link-level-2:link, .nav--footer .expandable-block-nav .nav__link-level-2:visited {
+    font-weight: 400;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    background-color: $blue-light;
+}
+
+.c-accordion__title a:link, .c-accordion__title a:visited, .c-search-header__search-options-label--large, .drawer-head, .c-accordion-lvl2__title a:link, .c-accordion-lvl2__title a:visited {
+    font-family: $font-serif;
+    font-weight: 700;
+    color: $blue-light;
+    font-size: 1.1em;
+}
+
+.c-accordion__title a:link, .c-accordion__title a:visited, .c-search-header__search-options-label--large, .drawer-head {
+    font-size: 1.2em;
+}
+
+.c-accordion__label-narrowsearch, .c-accordion__span-count {
+    font-weight: 400;
+}
+
+.site-header__branch, .site-header__branch--no-name.site-header__branch--has-logo {
+    background-color: $blue-light;
+    padding: 50px 20px;
+}
+
+.btn, a.btn {
+    background-color: $blue-light;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    font-weight: 700;
+    font-family: $font-sans;
+}
+
+.btn:hover, a.btn:hover {
+    background-color: black;
+}
+.c-title-detail-actions__btn:link .glyphicon, .c-title-detail-actions__btn:visited .glyphicon {
+    background-color: transparent;
+    color: $blue-light;
+}
+
+.c-title-detail-actions__btn:link:hover .glyphicon, .c-title-detail-actions__btn:visited:hover .glyphicon {
+    background-color: transparent;
+    color: white;
+}
+
+div.c-search-header__search-box-div {
+    padding: 10px 5px;
+    border-radius: 3px;
+}
+
+.availability__table-container.table-responsive table.table th, .availability__table-container.table-responsive a.group, .nav-panel--main-menu .nav-panel__nav .nav__link-level-1:link, .nav-panel--main-menu .nav-panel__nav .nav__link-level-1:visited {
+    background-color: $blue-light;
+    font-family: $font-serif;
+    font-weight: bold;
+}
+tr.headings-patrongrid th {
+    background-color: $blue-light;
+    border: 2px solid white!important;
+}
+
+
+/* -- Item Full Detail ---------------------------------------- */
+
+.nsm-brief-label {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.nsm-brief-primary-title-group {
+    font-size: 1.4em;
+    font-family: $font-serif;
+    font-weight: 700;
+    color: $blue-light;
+}
+
+.c-title-detail-actions__list {
+    border-bottom: 0;
+}
+
+.glyphicon-phone:before {
+    content:"\e111";
+    color: $green-med;
+}
+
+.availability__table-container.table-responsive table.table tbody tr.piece {
+    background: $gray-pale;
+    border: 2px solid white;
+}
+
+.availability__table-container.table-responsive th.Holdings:first-child {
+    padding-left: 8px;
+}
+
+table .group img, table .group .glyphicon {
+    font-size: 12px;
+}
+
+.drawer-body {
+    padding: 5px 20px;
+}
+
+.nsm-full-standard-group {
+    font-size: 1.1em;
+}
+
+.nsm-full-content {
+    border-bottom: 1px solid $gray-pale;
+}
+
+.nsm-full-label, .c-search-header__label {
+    text-transform: uppercase;
+    font-size: 0.75em;
+    line-height: 2em;
+}
+
+div.nsm-long-item {
+    text-indent: 0;
+}
+
+.c-title-detail-actions__list {
+    border-bottom: 0;
+}
+
+.expandable-block-nav .nav__link-level-1:link, .expandable-block-nav .nav__link-level-1:visited {
+    background-color: rgba(255,255,255,0.3);
+}
+
+.availability__table-container.table-responsive a.group, .nav-panel--main-menu .nav-panel__nav .nav__link-level-1:link, .nav-panel--main-menu .nav-panel__nav .nav__link-level-1:visited {
+    color:white;
+}
