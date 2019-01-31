@@ -49,9 +49,11 @@ $blue-dark:  #001a70;
 $green-med: #a3e35e;
 $gray-pale: #f4f4f7;
 
-/* -- New CSS ------------------------------------------------- */
+/* -- Page styling -------------------------------------------- */
 
-body, html, select[multiple="multiple"] option {
+body, 
+html, 
+select[multiple="multiple"] option {
     font-family: $font-sans;
     font-weight: 400;
 }
@@ -65,7 +67,8 @@ a:hover {
     color: black;
 }
 
-a.nsm-brief-action-link span.nsm-short-item, .nsm-short-item > a {
+a.nsm-brief-action-link span.nsm-short-item, 
+.nsm-short-item > a {
     color: $blue-light;
     font-weight: 700;
 }
@@ -77,7 +80,9 @@ a.nsm-brief-action-link span.nsm-short-item, .nsm-short-item > a {
     font-style: normal;
 }
 
-.c-title-detail-actions__btn:link, .c-title-detail-actions__btn:visited, .has-sidebar .secondary-content .c-title-detail-actions__btn:link, .has-sidebar .secondary-content .c-title-detail-actions__btn:visited {
+.c-title-detail-actions__btn:link, .c-title-detail-actions__btn:visited, 
+.has-sidebar .secondary-content .c-title-detail-actions__btn:link, 
+.has-sidebar .secondary-content .c-title-detail-actions__btn:visited {
     color: $blue-med;
     font-weight: 700;
     background-color: $blue-pale;
@@ -89,12 +94,18 @@ a.nsm-brief-action-link span.nsm-short-item, .nsm-short-item > a {
     font-family: $font-serif;
 }
 
-.c-title-detail-actions__btn:link:hover, .c-title-detail-actions__btn:visited:hover, .c-title-detail-actions__btn:link:hover, .c-title-detail-actions__btn:visited:hover, .has-sidebar .secondary-content .c-title-detail-actions__btn:link:hover, .has-sidebar .secondary-content .c-title-detail-actions__btn:visited:hover {
+.c-title-detail-actions__btn:link:hover, 
+.c-title-detail-actions__btn:visited:hover, 
+.c-title-detail-actions__btn:link:hover, 
+.c-title-detail-actions__btn:visited:hover, 
+.has-sidebar .secondary-content .c-title-detail-actions__btn:link:hover, 
+.has-sidebar .secondary-content .c-title-detail-actions__btn:visited:hover {
     color: white;
     background-color: $blue-light;
 }
 
-.c-add-to-my-list:link, .c-add-to-my-list:visited {
+.c-add-to-my-list:link, 
+.c-add-to-my-list:visited {
     font-size: 1.2em;
     font-weight: 700;
     font-family: $font-serif;
@@ -111,7 +122,13 @@ a.nsm-brief-action-link span.nsm-short-item, .nsm-short-item > a {
     opacity: 0.5;
 }
 
-.site-footer__secondary-content, .c-results-utility--full, .c-results-utility--partial, .c-results-utility-sort, .nav-panel--main-menu .nav-panel__top-nav, .nav-panel, .site-header {
+.site-footer__secondary-content, 
+.c-results-utility--full, 
+.c-results-utility--partial, 
+.c-results-utility-sort, 
+.nav-panel--main-menu .nav-panel__top-nav, 
+.nav-panel, 
+.site-header {
     background-color: $blue-dark;
 }
 
@@ -119,35 +136,52 @@ a.nsm-brief-action-link span.nsm-short-item, .nsm-short-item > a {
     background-color: $blue-med;
 }
 
-.nav--footer .expandable-block-nav .nav__link-level-2:link, .nav--footer .expandable-block-nav .nav__link-level-2:visited {
+.nav--footer .expandable-block-nav .nav__link-level-2:link, 
+.nav--footer .expandable-block-nav .nav__link-level-2:visited {
     font-weight: 400;
 }
 
-.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+.pagination > .active > a, 
+.pagination > .active > a:hover, 
+.pagination > .active > a:focus, 
+.pagination > .active > span, 
+.pagination > .active > span:hover, 
+.pagination > .active > span:focus {
     background-color: $blue-light;
 }
 
-.c-accordion__title a:link, .c-accordion__title a:visited, .c-search-header__search-options-label--large, .drawer-head, .c-accordion-lvl2__title a:link, .c-accordion-lvl2__title a:visited {
+.c-accordion__title a:link, 
+.c-accordion__title a:visited, 
+.c-search-header__search-options-label--large, 
+.drawer-head, 
+.c-accordion-lvl2__title a:link, 
+.c-accordion-lvl2__title a:visited {
     font-family: $font-serif;
     font-weight: 700;
     color: $blue-light;
     font-size: 1.1em;
 }
 
-.c-accordion__title a:link, .c-accordion__title a:visited, .c-search-header__search-options-label--large, .drawer-head {
+.c-accordion__title a:link, 
+.c-accordion__title a:visited, 
+.c-search-header__search-options-label--large, 
+.drawer-head {
     font-size: 1.2em;
 }
 
-.c-accordion__label-narrowsearch, .c-accordion__span-count {
+.c-accordion__label-narrowsearch, 
+.c-accordion__span-count {
     font-weight: 400;
 }
 
-.site-header__branch, .site-header__branch--no-name.site-header__branch--has-logo {
+.site-header__branch, 
+.site-header__branch--no-name.site-header__branch--has-logo {
     background-color: $blue-light;
     padding: 50px 20px;
 }
 
-.btn, a.btn {
+.btn, 
+a.btn {
     background-color: $blue-light;
     color: white;
     border-radius: 3px;
@@ -156,15 +190,18 @@ a.nsm-brief-action-link span.nsm-short-item, .nsm-short-item > a {
     font-family: $font-sans;
 }
 
-.btn:hover, a.btn:hover {
+.btn:hover, 
+a.btn:hover {
     background-color: black;
 }
-.c-title-detail-actions__btn:link .glyphicon, .c-title-detail-actions__btn:visited .glyphicon {
+.c-title-detail-actions__btn:link .glyphicon, 
+.c-title-detail-actions__btn:visited .glyphicon {
     background-color: transparent;
     color: $blue-light;
 }
 
-.c-title-detail-actions__btn:link:hover .glyphicon, .c-title-detail-actions__btn:visited:hover .glyphicon {
+.c-title-detail-actions__btn:link:hover .glyphicon, 
+.c-title-detail-actions__btn:visited:hover .glyphicon {
     background-color: transparent;
     color: white;
 }
@@ -174,7 +211,10 @@ div.c-search-header__search-box-div {
     border-radius: 3px;
 }
 
-.availability__table-container.table-responsive table.table th, .availability__table-container.table-responsive a.group, .nav-panel--main-menu .nav-panel__nav .nav__link-level-1:link, .nav-panel--main-menu .nav-panel__nav .nav__link-level-1:visited {
+.availability__table-container.table-responsive table.table th, 
+.availability__table-container.table-responsive a.group, 
+.nav-panel--main-menu .nav-panel__nav .nav__link-level-1:link, 
+.nav-panel--main-menu .nav-panel__nav .nav__link-level-1:visited {
     background-color: $blue-light;
     font-family: $font-serif;
     font-weight: bold;
@@ -217,7 +257,8 @@ tr.headings-patrongrid th {
     padding-left: 8px;
 }
 
-table .group img, table .group .glyphicon {
+table .group img, 
+table .group .glyphicon {
     font-size: 12px;
 }
 
@@ -233,7 +274,8 @@ table .group img, table .group .glyphicon {
     border-bottom: 1px solid $gray-pale;
 }
 
-.nsm-full-label, .c-search-header__label {
+.nsm-full-label, 
+.c-search-header__label {
     text-transform: uppercase;
     font-size: 0.75em;
     line-height: 2em;
@@ -247,10 +289,13 @@ div.nsm-long-item {
     border-bottom: 0;
 }
 
-.expandable-block-nav .nav__link-level-1:link, .expandable-block-nav .nav__link-level-1:visited {
+.expandable-block-nav .nav__link-level-1:link, 
+.expandable-block-nav .nav__link-level-1:visited {
     background-color: rgba(255,255,255,0.3);
 }
 
-.availability__table-container.table-responsive a.group, .nav-panel--main-menu .nav-panel__nav .nav__link-level-1:link, .nav-panel--main-menu .nav-panel__nav .nav__link-level-1:visited {
+.availability__table-container.table-responsive a.group, 
+.nav-panel--main-menu .nav-panel__nav .nav__link-level-1:link, 
+.nav-panel--main-menu .nav-panel__nav .nav__link-level-1:visited {
     color:white;
 }
