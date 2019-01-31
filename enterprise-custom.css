@@ -1,0 +1,277 @@
+.headerWrapper {
+    background-color: #3155a4;
+    box-shadow: 0 20px #3155a4;
+}
+
+.totalAvailable {
+    font-size: 18px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+#searchBoxWrapper {
+    background: #3155a4;
+}
+
+#mainMenuContainer {
+    background: #3155a4;
+    margin-top: 10px;
+}
+
+.menuLink a, .loginLink a, .ada_link, .fa {
+    font-size: 21px;
+    font-weight: 400;
+    border-bottom: none;
+}
+
+.welcome {
+    font-size: 18px;
+    color: #a3e35e;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+}
+
+.list .results_right .button, .button, .button:visited {
+    border-radius: 3px;
+    background: #3155a4;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #000;
+}
+
+#searchButton {
+    background-color: #a3e35e;
+    font-size: 18px;
+    /*text-transform: uppercase;*/
+    font-weight: bold;
+    color: #fff;
+    border-radius: 3px;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    margin: 7px 13px 0px 5px;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 1px #89af56;
+}
+
+#searchButton:hover {
+    background-color: #9bd342;
+}
+
+body, .displayElementText {
+    background: #fff;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+#searchBox .dropDown {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    border-radius: 3px;
+    padding-bottom: 2px;
+    margin: 0 5px 8px 5px;
+}
+
+#searchBox:active, .dropDown:active {
+    background: #fff;
+}
+
+#q {
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 8px 5px 4px 5px;
+    padding-bottom: 3px;
+    padding-top: 1px;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+#searchBoxAdvancedLink a {
+    font-size: 13px;
+    line-height: 150%;
+}
+
+.limitcolumn_wrapper.noShowAvailable {
+    background: #eee;
+}
+
+.facetTitleRow {
+    background: #3155a4;
+}
+
+.limitcolumn_wrapper .button {
+    background: #fff;
+    border-radius: 3px;
+    color: #3155a4;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.limitcolumn_wrapper {
+    width: 300px;
+}
+
+.resultsToolbar_wrapper {
+    background: #eee;
+}
+
+#searchResultsColumn {
+    width: 688px;
+}
+
+.displayDetailLink>a {
+    font-family: 'Source Sans Pro';
+    font-size: 24px;
+    font-weight: bold;
+    color: #3155a4;
+}
+
+.facetTitle {
+    top: 6px;
+}
+
+.dropDownButton {
+    width: 190px;
+}
+
+.customDropdown li a, .dropDownButton div {
+    color: #000;
+    padding-bottom: 3px;
+}
+
+.resultsToolbar_num_results {
+    background: none;
+    color: #000;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+.availableLabel, .availableNumber {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menuActive a {
+    font-size: 21px;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+.logoContainer p {
+    margin: 30px 0 10px 0;
+}
+
+html {
+    background: #3155a4;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    background: #3155a4!important;
+}
+
+.loginButton {
+    background-color: #a3e35e;
+    font-size: 18px;
+    /*text-transform: uppercase;*/
+    font-weight: bold;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#footer {
+    background: #3155a4;
+    color: #fff;
+}
+
+#footer a {
+    font-weight: bold;
+    border-bottom: 2px solid #a3e35e;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+}
+
+.currentPage {
+    color: #3155a4;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ui-accordion-icons .ui-accordion-header a {
+    background: #3155a4!important;
+    padding: 15px!important;
+    border-radius: 3px!important;
+    border-color: #eee!important;
+    padding-left: 20px!important;
+    font-weight: 400;
+}
+
+.availableNumber:before {
+    content: '  ';
+}
+
+.detailItems {
+    font-size: 14px;
+}
+
+.detailItems th {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.availableLabel, .availableNumber {
+    font-size: 18px;
+}
+
+table.sortable thead {
+    background: #3155a4;
+}
+
+.detailActions .button {
+    font-size: 18px;
+    height: 35px;
+}
+
+.dropDownButton, .ui-widget {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+.nytimes_listbar {
+    background: #3155a4;
+}
+
+#bookRiverWrapper .nytimes_bio .bold {
+    font-size: 18px;
+    color: #3155a4;
+}
+
+.jscarousal {
+    background: #ddd!important;
+}
+
+.jscarousal .jscarousal-left, .jscarousal .jscarousal-right {
+    background: #ddd!important;
+}
+
+.ui-widget-header {
+    background: #3155a4!important;
+}
+
+#accountSummary .summarySubheading {
+    background: #3155a4!important;
+    font-size: 18px;
+}
+
+.nytimes_wrapper {
+    padding-top: 35px!important;
+}
+
