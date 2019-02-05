@@ -63,8 +63,21 @@ a:hover {
     font-style: normal;
 }
 
+.site-container img {
+    max-width: 600px;
+}
+
 .nsm-short-item:not(.nsm-e135) {
     color: black;
+}
+
+.nav-panel--main-menu .nav-panel__nav {
+    background-color: $blue-light;
+    border-top: 4px solid $blue-light;
+}
+
+.c-accordion__link:link, .c-accordion__item a, a, a:hover, a:focus {
+    color: $blue-light;
 }
 
 a.nsm-brief-action-link span.nsm-short-item, 
@@ -111,7 +124,7 @@ a.nsm-brief-action-link span.nsm-short-item,
     font-family: $font-serif;
     color: $blue-light;
     padding: 0;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .c-add-to-my-list::before {
@@ -195,7 +208,10 @@ a.btn:hover {
     background-color: black;
 }
 .c-title-detail-actions__btn:link .glyphicon, 
-.c-title-detail-actions__btn:visited .glyphicon {
+.c-title-detail-actions__btn:visited .glyphicon,
+a,
+a:visited,
+.c-accordion__label-narrowsearch {
     background-color: transparent;
     color: $blue-light;
 }
@@ -204,6 +220,12 @@ a.btn:hover {
 .c-title-detail-actions__btn:visited:hover .glyphicon {
     background-color: transparent;
     color: white;
+}
+
+a:hover,
+a:visited:hover,
+.c-accordion__label-narrowsearch:hover {
+    color: black;
 }
 
 div.c-search-header__search-box-div {
@@ -222,6 +244,19 @@ div.c-search-header__search-box-div {
 tr.headings-patrongrid th {
     background-color: $blue-light;
     border: 2px solid white!important;
+}
+
+.c-accordion__heading {
+    background-color: $blue-light;
+}
+
+.c-accordion__list--show-bullets {
+    list-style: none;
+    padding-left: 0;
+}
+
+.c-accordion__body {
+    padding-left: 18px!important;
 }
 
 
