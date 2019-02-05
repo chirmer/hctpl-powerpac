@@ -279,6 +279,10 @@ tr.headings-patrongrid th {
     background-color: $blue-med;
 }
 
+.c-accordion__heading {
+    background-color: transparent;
+}
+
 /* -- Item Full Detail ---------------------------------------- */
 
 .nsm-brief-label {
@@ -353,7 +357,17 @@ div.nsm-long-item {
     color:white;
 }
 
-div.nsm-long-item a.nsm-browse-link {
+div.nsm-long-item a.nsm-browse-link,
+.c-previous-titles__image-title-author-link:link, 
+.c-previous-titles__image-title-author-link:visited, 
+.c-previous-titles __image-title-author-link-li:link, 
+.c-previous-titles __image-title-author-link-li:visited, 
+.c-previous-titles __image-title-author-link-ul:link, 
+.c-previous-titles __image-title-author-link-ul:visited,
+.c-previous-titles__recently-viewed:link, 
+.c-previous-titles__recently-viewed:visited,
+.c-title-detail-accordion-util__title-link:link, 
+.c-title-detail-accordion-util__title-link:visited {
     color: $blue-light;
 }
 
@@ -364,4 +378,15 @@ td.location .group, td.location a.group {
 
 .drawer-head:hover {
     background-color: $blue-pale;
+}
+
+div.availability__table-container.table-responsive table th {
+    background-color: $blue-pale;
+}
+
+.c-results-utility-prev__link:link, 
+.c-results-utility-prev__link:visited, 
+.c-results-utility-next__link:link, 
+.c-results-utility-next__link:visited {
+    background-color: $blue-light;
 }
