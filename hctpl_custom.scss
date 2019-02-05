@@ -40,7 +40,7 @@
 
 /* -- Variables ----------------------------------------------- */
 
-$font-sans: 'Source Sans Pro', verdana, sans-serif;
+$font-sans: 'Source Sans Pro', Roboto, sans-serif;
 $font-serif: 'Source Serif Pro', Georgia, serif;
 $blue-pale: #cdf;
 $blue-light: #03a;
@@ -48,6 +48,8 @@ $blue-med: #00268e;
 $blue-dark:  #001a70;
 $green-med: #a3e35e;
 $gray-pale: #f4f4f7;
+$color_accent: #03a;
+$color_accent_light: lighten(#03a,10);
 
 /* -- Page styling -------------------------------------------- */
 
@@ -203,6 +205,10 @@ a.btn {
     font-family: $font-sans;
 }
 
+#buttonDoSearchLabel {
+    font-weight: 400;
+}
+
 .btn:hover, 
 a.btn:hover {
     background-color: black;
@@ -211,7 +217,8 @@ a.btn:hover {
 .c-title-detail-actions__btn:visited .glyphicon,
 a,
 a:visited,
-.c-accordion__label-narrowsearch {
+.c-accordion__label-narrowsearch, 
+span.nsm-short-item a.nsm-browse-link {
     background-color: transparent;
     color: $blue-light;
 }
@@ -229,18 +236,23 @@ a:visited:hover,
 }
 
 div.c-search-header__search-box-div {
-    padding: 10px 5px;
     border-radius: 3px;
 }
 
 .availability__table-container.table-responsive table.table th, 
-.availability__table-container.table-responsive a.group, 
+.availability__table-container.table-responsive a.group {
+    font-family: $font-serif;
+    font-weight: bold;
+    color: $blue-med;
+}
+ 
 .nav-panel--main-menu .nav-panel__nav .nav__link-level-1:link, 
 .nav-panel--main-menu .nav-panel__nav .nav__link-level-1:visited {
     background-color: $blue-light;
     font-family: $font-serif;
     font-weight: bold;
 }
+
 tr.headings-patrongrid th {
     background-color: $blue-light;
     border: 2px solid white!important;
@@ -259,6 +271,13 @@ tr.headings-patrongrid th {
     padding-left: 18px!important;
 }
 
+.c-results-utility-display-count {
+    background-color: $blue-dark;
+}
+
+.c-results-utility-display-count, .c-results-utility-prev, .c-results-utility-next {
+    background-color: $blue-med;
+}
 
 /* -- Item Full Detail ---------------------------------------- */
 
@@ -328,9 +347,21 @@ div.nsm-long-item {
 .expandable-block-nav .nav__link-level-1:visited {
     background-color: rgba(255,255,255,0.3);
 }
-
-.availability__table-container.table-responsive a.group, 
+ 
 .nav-panel--main-menu .nav-panel__nav .nav__link-level-1:link, 
 .nav-panel--main-menu .nav-panel__nav .nav__link-level-1:visited {
     color:white;
+}
+
+div.nsm-long-item a.nsm-browse-link {
+    color: $blue-light;
+}
+
+td.location .group, td.location a.group {
+    background-color: transparent;
+    color: $blue-light;
+}
+
+.drawer-head:hover {
+    background-color: $blue-pale;
 }
